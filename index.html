@@ -1,0 +1,29 @@
+<!-- templates/index.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="chat-container">
+    <div class="chat-header">
+        <h2>🇰🇪 Ask About Kenyan Law</h2>
+        <p>Ask me anything about the Constitution, Employment, Children's Rights, Sexual Offences, or Data Protection</p>
+    </div>
+    
+    <div class="chat-messages" id="chat-messages">
+        <div class="message bot-message">
+            <div class="message-content">
+                <strong>⚖️ Legal Assistant:</strong>
+                <p>Jambo! I'm here to help you understand Kenyan law in simple terms. What would you like to know about your legal rights?</p>
+                <p><small>Examples: "What are my rights if arrested?" or "How much maternity leave am I entitled to?"</small></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="chat-input-container">
+        <textarea id="question-input" placeholder="Type your question in plain English..." rows="2"></textarea>
+        <button id="send-button" class="btn btn-primary">Send →</button>
+    </div>
+    <div class="input-hint">
+        <small>Press Shift + Enter for new line | Enter to send</small>
+    </div>
+</div>
+{% endblock %}

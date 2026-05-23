@@ -1,0 +1,19 @@
+name: Deploy to Hugging Face Spaces
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Push to Hugging Face Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git remote add space https://KennethNyangweso99:$HF_TOKEN@huggingface.co/spaces/KennethNyangweso99/KennethNyangweso99/Kenyan-legal-assistant
+          git push --force space main

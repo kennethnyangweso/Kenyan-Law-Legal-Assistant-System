@@ -10,10 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # ← This fetches the FULL Git history (fixes shallow clone error)
+          lfs: true       # ← Include large files if needed
       
       - name: Push to Hugging Face Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
+          # Add Hugging Face Space as remote
           git remote add space https://KennethNyangweso99:$HF_TOKEN@huggingface.co/spaces/KennethNyangweso99/Kenyan-legal-assistant
-          git push --force space main
+          
+          # Push with full history
+          git push --force space HEAD:main

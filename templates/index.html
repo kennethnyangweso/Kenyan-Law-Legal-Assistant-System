@@ -2,28 +2,26 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="chat-container">
-    <div class="chat-header">
-        <h2>🇰🇪 Ask About Kenyan Law</h2>
-        <p>Ask me anything about the Constitution, Employment, Children's Rights, Sexual Offences, or Data Protection</p>
+<div class="home-container">
+    <div class="hero">
+        <h2>Your Rights, Explained Simply</h2>
+        <p>Kenyan law can be complex. Our AI legal assistant helps you understand your rights in plain language.</p>
+        <a href="/chat" class="btn btn-large">Start Chatting →</a>
     </div>
     
-    <div class="chat-messages" id="chat-messages">
-        <div class="message bot-message">
-            <div class="message-content">
-                <strong>⚖️ Legal Assistant:</strong>
-                <p>Jambo! I'm here to help you understand Kenyan law in simple terms. What would you like to know about your legal rights?</p>
-                <p><small>Examples: "What are my rights if arrested?" or "How much maternity leave am I entitled to?"</small></p>
-            </div>
+    <div class="features">
+        <div class="feature-card">
+            <h3>📚 5 Major Laws</h3>
+            <p>Constitution, Employment, Children's Rights, Sexual Offences, Data Protection</p>
         </div>
-    </div>
-    
-    <div class="chat-input-container">
-        <textarea id="question-input" placeholder="Type your question in plain English..." rows="2"></textarea>
-        <button id="send-button" class="btn btn-primary">Send →</button>
-    </div>
-    <div class="input-hint">
-        <small>Press Shift + Enter for new line | Enter to send</small>
+        <div class="feature-card">
+            <h3>🗣️ Plain Language</h3>
+            <p>No legal jargon. Simple explanations anyone can understand.</p>
+        </div>
+        <div class="feature-card">
+            <h3>⚡ Instant Answers</h3>
+            <p>Ask anything about Kenyan law and get immediate responses.</p>
+        </div>
     </div>
 </div>
 {% endblock %}

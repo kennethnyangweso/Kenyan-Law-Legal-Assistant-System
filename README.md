@@ -325,6 +325,23 @@ python app.py
 
 Navigate to http://127.0.0.1:5000
 
+### Results:
+
+<img width="1318" height="666" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/30770a03-373f-4913-a612-9b1b7ffeb10a" />
+
+<img width="1324" height="607" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/942bf15e-a500-45f5-99b4-54da6fb8ad71" />
+
+<img width="1322" height="612" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/60f10051-3652-4a42-aaf2-f98ce4a58316" />
+
+<img width="1312" height="525" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/730ee1b9-ab50-4624-9298-1fe034adfbc8" />
+
+<img width="1357" height="684" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/3e001573-4390-4716-8702-5d8674a761ee" />
+
+### Demo link:
+
+https://screenrec.com/share/A7Q3MeWUxu
+
+
 ## 📊 Conclusions & Accomplishments
 
 ### Project Success Summary

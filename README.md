@@ -269,6 +269,64 @@ We put the website online using a hosting service called **Render**. Now anyone 
 
            
 
+## 🚀 Deployment Procedure
+
+### Option 1: Run Locally (For Personal Use)
+
+#### Prerequisites
+
+| Requirement | Description |
+|-------------|-------------|
+| Python 3.11 or 3.12 | Installed on your computer |
+| Groq API Key | Free from [console.groq.com](https://console.groq.com) |
+| 8GB RAM minimum | Recommended for smooth performance |
+| 5GB free storage | For packages and vector database |
+
+#### Step-by-Step Local Setup
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/kennethnyangweso/Kenyan-Law-Legal-Assistant-System.git
+cd Kenyan-Law-Legal-Assistant-System
+```
+
+**2. Create and activate virtual environment**
+
+```
+# Windows
+python -m venv constitution_env
+constitution_env\Scripts\activate
+
+# Mac/Linux
+python -m venv constitution_env
+source constitution_env/bin/activate
+```
+
+**3. Install dependencies**
+
+```
+pip install -r requirements.txt
+
+```
+**4. Set your Groq API key**
+
+```
+GROQ_API_KEY=gsk_your_actual_api_key_here
+
+```
+
+**5. Run the application**
+
+```
+python app.py
+```
+
+**6. Open your browser**
+
+Navigate to http://127.0.0.1:5000
+
+
 
 
 

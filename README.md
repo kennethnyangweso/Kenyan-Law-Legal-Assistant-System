@@ -218,20 +218,6 @@ We put the website online using a hosting service called **Render**. Now anyone 
 
 ---
 
-### Time to Build
-
-| Task | Time Taken |
-|------|------------|
-| Collecting and preparing law documents | 1 hour |
-| Setting up the search system | 2 hours |
-| Building the AI question answering | 3 hours |
-| Creating the website design | 2 hours |
-| Testing and fixing issues | 2 hours |
-| Deploying online | 1 hour |
-| **Total** | **Approximately 11 hours** |
-
----
-
 ### Example Questions to Try
 
 - "What are my rights if I'm arrested?"

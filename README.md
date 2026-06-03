@@ -486,6 +486,24 @@ Successfully implemented a Retrieval-Augmented Generation (RAG) architecture usi
 **The Kenyan Legal Assistant - Making Justice Accessible** 🇰🇪
 
 ---
+## 🙏 Acknowledgements
+
+- **Kenya Law** (new.kenyalaw.org) - For providing free access to official Kenyan legal documents
+- **Groq** - For free API access to Llama 3.1 for plain language generation
+- **LangChain** - For the RAG framework
+- **Hugging Face** - For sentence-transformers embeddings
+- **Render** - For free cloud hosting
+
+---
+
+## 👨‍💻 Author
+
+**Kenneth Nyangweso**
+
+**AI ENGINEER**
+
+- GitHub: [@kennethnyangweso](https://github.com/kennethnyangweso)
+- Kenya 🇰🇪
 
 ### Connect & Contribute
 

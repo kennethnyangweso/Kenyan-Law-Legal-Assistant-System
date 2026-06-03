@@ -6,6 +6,10 @@
 
 ---
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/a75489a6-16ed-40b2-acb8-df1a2d41da25" />
+
+---
+
 ## 📋 Project Overview
 
 The **Kenyan Legal Assistant** is a Retrieval-Augmented Generation (RAG) system that helps Kenyan citizens understand their legal rights and obligations in simple, everyday language. Instead of navigating complex legal documents, users can ask natural language questions and receive clear, actionable answers sourced directly from Kenyan law.

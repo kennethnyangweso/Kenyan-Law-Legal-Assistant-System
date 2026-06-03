@@ -1,4 +1,7 @@
-# 🇰🇪 Kenyan Legal Assistant - AI-Powered Legal Q&A System
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ca40069a-fbe3-45ac-a061-fb8cf504e97a" />
+
+
+
 
 
 ---

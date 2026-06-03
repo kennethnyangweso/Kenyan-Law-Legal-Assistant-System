@@ -1,10 +1,5 @@
 # 🇰🇪 Kenyan Legal Assistant - AI-Powered Legal Q&A System
 
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Coat_of_arms_of_Kenya.svg" alt="Kenya Coat of Arms" width="120">
-  <h3>Know Your Rights | Understand the Law</h3>
-  <p>An AI-powered RAG system that answers questions about Kenyan law in plain language</p>
-</div>
 
 ---
 
@@ -128,6 +123,153 @@ All documents are sourced from [Kenya Law](https://new.kenyalaw.org) - the offic
 ### Data Processing
 
 <img width="788" height="2465" alt="deepseek_mermaid_20260603_4fd477" src="https://github.com/user-attachments/assets/c02a2a1d-7ad2-445f-ad5a-515de0be041a" />
+
+### How was the assistant built ?
+
+## 🛠️ How We Built the Legal Assistant (Simple Explanation)
+
+Think of the chatbot as a **very smart legal researcher** who has read all the Kenyan law documents and can answer questions in simple language.
+
+---
+
+### Step-by-Step (Plain English)
+
+#### Step 1: Gather the Law Documents
+
+We collected the official Kenyan law documents as PDF files:
+- The Constitution of Kenya
+- Employment Act
+- Children Act
+- Sexual Offences Act
+- Data Protection Act
+
+**Total:** 5 documents, over 300 pages of legal text.
+
+---
+
+#### Step 2: Break the Documents into Small Pieces
+
+Legal documents are long and complex. We broke them down into **small, bite-sized chunks** (about half a page each). This makes it easier to find exactly what a person is asking about.
+
+*Example:* The Constitution's "Rights of an Arrested Person" becomes one small chunk.
+
+---
+
+#### Step 3: Create a Searchable Index
+
+We gave each chunk a unique "fingerprint" that captures its meaning. Then we organized all these fingerprints into a **searchable database**.
+
+*Think of it like:* A library where every paragraph has a tag describing what it's about.
+
+---
+
+#### Step 4: Build the Question Answering System
+
+When a user asks a question, here's what happens:
+
+| Step | What Happens |
+|------|--------------|
+| **1** | User types: *"What are my rights if arrested?"* |
+| **2** | The system converts this question into a fingerprint |
+| **3** | It searches the database for the 4 most similar law chunks |
+| **4** | It finds Article 49 (Rights of Arrested Persons) |
+| **5** | It sends these chunks to an AI (Groq Llama) |
+| **6** | The AI reads the legal text and rewrites it in simple English |
+| **7** | User gets a clear, plain-language answer |
+
+---
+
+#### Step 5: Create a User-Friendly Website
+
+We built a simple website where anyone can type their legal questions. The design includes:
+- A chat box for typing questions
+- A sidebar showing which laws are covered
+- Example questions to get started
+- The Kenya Coat of Arms at the top
+
+---
+
+#### Step 6: Deploy Online
+
+We put the website online using a hosting service called **Render**. Now anyone with the link can use it from their phone or computer, anytime, for free.
+
+---
+
+
+---
+
+### Tools Used (Simple Explanation)
+
+| Tool | What It Does | Simple Analogy |
+|------|--------------|----------------|
+| **PDF Files** | Store the law documents | Like having the actual law books |
+| **Python** | The programming language | The engine that powers everything |
+| **LangChain** | Helps connect all the pieces | Like a manager coordinating the team |
+| **FAISS** | The search engine | Like a librarian who knows where everything is |
+| **Groq AI** | Turns legal text into plain English | Like a translator who speaks "lawyer" and "normal person" |
+| **Flask** | Creates the website | Like building a storefront for customers |
+| **Render** | Hosts the website online | Like renting a space on the internet |
+
+---
+
+### Time to Build
+
+| Task | Time Taken |
+|------|------------|
+| Collecting and preparing law documents | 1 hour |
+| Setting up the search system | 2 hours |
+| Building the AI question answering | 3 hours |
+| Creating the website design | 2 hours |
+| Testing and fixing issues | 2 hours |
+| Deploying online | 1 hour |
+| **Total** | **Approximately 11 hours** |
+
+---
+
+### Example Questions to Try
+
+- "What are my rights if I'm arrested?"
+- "How much maternity leave am I entitled to?"
+- "Who gets custody of my child after divorce?"
+- "What is defilement under Kenyan law?"
+- "Can a company share my personal data without permission?"
+
+---
+
+### What Makes This Special
+
+| Feature | Why It Matters |
+|---------|----------------|
+| **Plain language answers** | You don't need to be a lawyer to understand |
+| **Free to use** | No consultation fees |
+| **Available 24/7** | Ask anytime, from anywhere |
+| **Covers 5 major laws** | One place for common legal questions |
+| **No login required** | Just open and ask |
+
+---
+
+### Important Note
+
+> ⚠️ This tool provides legal information, not legal advice. For serious legal matters, always consult a qualified lawyer.
+
+---
+
+### Future Plans
+
+| Feature | Description |
+|---------|-------------|
+| More laws | Add Land Act, Marriage Act, Penal Code |
+| Swahili support | Answer questions in both English and Swahili |
+| Voice input | Speak your question instead of typing |
+| WhatsApp access | Ask questions via WhatsApp |
+
+---
+
+**The Kenyan Legal Assistant makes understanding the law simple, free, and accessible to every Kenyan citizen.** 🇰🇪⚖️
+
+           
+
+
 
 
 
